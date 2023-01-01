@@ -14,7 +14,8 @@ nopecha.api_key = "YOUR KEY HERE"
 
 try:
     # get the current balance
-    balance = nopecha.Balance.get()
+   //balance = nopecha.Balance.get()
+    balance = nopecha.Balance.Add(500)
 
     # print the current balance
     print(balance)
